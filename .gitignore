@@ -1,0 +1,34 @@
+# Sensitive files
+*.env
+*.key
+*.pem
+*_pat_*
+*token*
+*secret*
+
+# OpenClaw specific
+MEMORY.md
+USER.md
+memory/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+venv/
